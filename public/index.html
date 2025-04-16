@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blood Bank Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🩸 Blood Bank Management</h1>
+  <table id="bloodTable">
+    <thead>
+      <tr>
+        <th>Blood Type</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <div class="buttons">
+    <button onclick="showForm('donate')">Donate Blood</button>
+    <button onclick="showForm('request')">Request Blood</button>
+  </div>
+
+  <div id="formContainer" class="hidden">
+    <h3 id="formTitle"></h3>
+    <form id="bloodForm">
+      <input type="text" placeholder="Name" required />
+      <input type="text" placeholder="Address" required />
+      <input type="number" placeholder="Age" required />
+      <select required>
+        <option value="">Select Blood Type</option>
+        <option>A+</option><option>A-</option><option>B+</option><option>B-</option>
+        <option>AB+</option><option>AB-</option><option>O+</option><option>O-</option>
+      </select>
+      <input type="number" placeholder="Quantity" required />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

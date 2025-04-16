@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    text-align: center;
+    color: #d80027;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    border: 1px solid #d80027;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #d80027;
+    color: white;
+  }
+  
+  .buttons {
+    margin: 20px;
+  }
+  
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #d80027;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #formContainer {
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  #formContainer input, #formContainer select {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
