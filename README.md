@@ -1,5 +1,9 @@
 This is the Simple Blood Bank Management System
 
+db.js -> To create database and tables
+server.js -> backend or server code
+pubic folder has the all frontend code 
+
 Functions
 - Display the all Types and Quantity present in the stock
 - Donation
